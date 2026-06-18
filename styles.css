@@ -280,6 +280,8 @@ select:focus-visible {
   border-radius: 999px;
   margin-bottom: 28px;
   box-shadow: 0 8px 20px rgba(249, 115, 22, 0.4);
+  cursor: default;
+  user-select: none;
 }
 
 .hero-actions {

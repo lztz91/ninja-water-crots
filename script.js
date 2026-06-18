@@ -1,5 +1,11 @@
 const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches
 
+// ── Toujours démarrer en haut de page au chargement/rafraîchissement ──
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual"
+}
+window.addEventListener("load", () => window.scrollTo(0, 0))
+
 // ── Splash Screen ──
 const splashScreen = document.getElementById("splashScreen")
 if (splashScreen) {
