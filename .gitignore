@@ -1,11 +1,8 @@
-# Dossier privé Claude (config, mémoire, skills) — ne pas publier
-.claude/
-
 # Fichiers système
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Secrets éventuels (au cas où)
+# Secrets éventuels
 .env
 .env.*
