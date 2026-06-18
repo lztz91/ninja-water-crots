@@ -132,6 +132,14 @@ tarifButtons.forEach(button => {
       item.setAttribute("aria-selected", String(item === button))
     })
     renderTarifDetails(button.dataset.plan)
+
+    // Amène l'utilisateur vers la description de la formule choisie
+    if (tarifDetailsEl) {
+      tarifDetailsEl.scrollIntoView({
+        behavior: reduced ? "auto" : "smooth",
+        block: "center",
+      })
+    }
   })
 })
 
