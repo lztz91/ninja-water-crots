@@ -112,13 +112,24 @@ const renderTarifDetails = (plan) => {
   const content = tarifData[plan]
   if (!content || !tarifDetailsEl) return
 
-  tarifDetailsEl.innerHTML = `
-    <h3>${content.title}</h3>
-    <p>${content.description}</p>
-    <ul class="detail-list">
-      ${content.points.map(p => `<li>${p}</li>`).join("")}
-    </ul>
-  `
+  // Construction du DOM avec textContent : aucune injection HTML possible
+  tarifDetailsEl.replaceChildren()
+
+  const h3 = document.createElement("h3")
+  h3.textContent = content.title
+
+  const p = document.createElement("p")
+  p.textContent = content.description
+
+  const ul = document.createElement("ul")
+  ul.className = "detail-list"
+  content.points.forEach(point => {
+    const li = document.createElement("li")
+    li.textContent = point
+    ul.append(li)
+  })
+
+  tarifDetailsEl.append(h3, p, ul)
   tarifDetailsEl.classList.remove("reveal")
   requestAnimationFrame(() => tarifDetailsEl.classList.add("reveal"))
 }
