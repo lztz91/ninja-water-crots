@@ -62,7 +62,7 @@ body {
 
 .section-title {
   font-family: "Russo One", sans-serif;
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.5rem, 5vw, 3rem);
   color: var(--nwc-blue-dark);
   letter-spacing: 0.5px;
   text-transform: uppercase;

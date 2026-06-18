@@ -79,10 +79,9 @@ const tarifData = {
     title: "Journée Simple — 18€",
     description: "La formule pour venir relever le défi sur une journée, à partir de 7 ans.",
     points: [
-      "Accès au parcours Ninja (12 obstacles, 300 m²)",
+      "Accès au parcours Ninja (Plusieurs obstacles, 300 m²)",
       "Gilet de sauvetage et casque fournis",
       "Une sortie définitive : on profite puis on quitte le parc",
-      "Accessible même aux non-nageurs",
     ],
   },
   liberte: {
@@ -101,7 +100,6 @@ const tarifData = {
     points: [
       "Accès 2h à l'espace aquatique ludique",
       "Réservé aux enfants de moins de 7 ans",
-      "Équipement de sécurité fourni",
       "Sous la surveillance d'un adulte accompagnant",
     ],
   },
