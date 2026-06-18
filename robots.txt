@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eclectic-malasada-9f42c4.netlify.app/sitemap.xml
+Sitemap: https://nwcrots.netlify.app/sitemap.xml
