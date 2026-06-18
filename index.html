@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ninja Water Crots (NWCROTS) | Le 1er Ninja Water du 05</title>
+  <meta name="description" content="NWCROTS, le 1er Ninja Water des Hautes-Alpes à la plage de Chanterenne, Crots. 12 obstacles inspirés de Ninja Warrior au-dessus de l'eau. Tarifs, sécurité et infos pratiques.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="splash-screen" id="splashScreen" role="status" aria-live="polite" aria-label="Écran de bienvenue">
+    <div class="splash-content">
+      <img class="splash-logo" src="logoninha.jpeg" alt="Logo Ninja Water Crots">
+      <h1 class="splash-title">Bienvenue</h1>
+      <p class="splash-text">Prépare-toi pour ton défi Ninja Water Crots.</p>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#accueil" aria-label="Ninja Water Crots accueil">
+        <img class="brand-logo" src="logoninha.jpeg" alt="Logo Ninja Water Crots">
+        <span class="brand-text">Ninja Water Crots</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav"></button>
+    </div>
+  </header>
+
+  <nav id="mainNav" class="nav-sidebar" aria-label="Navigation principale">
+    <button class="nav-close" id="navClose">✕</button>
+    <a href="#parc">Le Parc</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#securite">Sécurité</a>
+    <a href="#avis">Avis</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-background" style="background-image: url('images/parcours_general_1.jpeg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img class="hero-logo" src="logoninha.jpeg" alt="Logo Ninja Water Crots">
+        <h1>Ninja Water Crots</h1>
+        <p>Le 1<sup>er</sup> Ninja Water du 05 — inspiré du Ninja Warrior</p>
+        <span class="hero-badge">🚀 Ouverture officielle : Juillet 2026</span>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#tarifs">Voir les tarifs</a>
+          <a class="btn btn-secondary" href="#contact">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-bar" aria-label="Chiffres clés">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">300 m²</span>
+          <span class="stat-label">De parcours aquatique</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">12</span>
+          <span class="stat-label">Obstacles techniques</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">7j/7</span>
+          <span class="stat-label">Juillet & Août, 10h-19h</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">Dès 7 ans</span>
+          <span class="stat-label">Même les non-nageurs</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="parc">
+      <div class="container">
+        <h2 class="section-title">Le Parc</h2>
+        <p class="section-lead">Découvrez NWCROTS à la plage de Chanterenne, le seul et unique Ninja Water du département, directement inspiré de la célèbre émission Ninja Warrior ! Affrontez de véritables obstacles techniques suspendus au-dessus de l'eau : force, équilibre, agilité et mental seront vos meilleurs alliés. Chrono, performance ou pur fun entre amis et en famille — serez-vous à la hauteur du buzzer ?</p>
+        <div class="cards-3">
+          <article class="card js-reveal">
+            <h3>🥷 Le Défi Ninja</h3>
+            <p>12 obstacles techniques sur 300 m² au-dessus de l'eau. Relevez le défi en solo, en famille ou entre amis et tentez d'atteindre le buzzer final !</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>🌊 Espace aquatique enfants</h3>
+            <p>Un espace aquatique ludique dédié aux enfants de moins de 7 ans, pour qu'ils profitent eux aussi en toute sécurité.</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>🏖️ Commodités & détente</h3>
+            <p>Transats et pergolas ombragées, tables de pique-nique, vestiaires, douches et toilettes sur place. Restauration rapide en juillet-août.</p>
+          </article>
+        </div>
+        <div class="section-images">
+          <div class="section-image js-reveal">
+            <img src="images/parcours_general_1.jpeg" alt="Vue générale du parc Ninja Water Crots avec obstacles rouges et piscine bleue">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/obstacles_piscine.jpeg" alt="Obstacles variés dans la piscine du parc">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/obstacle_roues.jpeg" alt="Détail des roues d'équilibre">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/parcours_vue_haut.jpeg" alt="Vue d'ensemble du parc depuis le haut">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="securite">
+      <div class="container">
+        <h2 class="section-title">Consignes de Sécurité</h2>
+        <p class="section-lead">Chez NWCROTS, la sécurité est notre priorité absolue. Notre structure est entièrement sécurisée pour que vous puissiez vous amuser l'esprit tranquille.</p>
+        <div class="cards-3">
+          <article class="card js-reveal">
+            <h3>🦺 Équipement fourni</h3>
+            <p>Gilet de sauvetage et casque fournis à tous les participants. Accessible même aux non-nageurs. Pensez à venir avec un maillot de bain et des baskets.</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>🛟 100% sécurisé</h3>
+            <p>Système de ligne de vie en continu sur tout le parcours. Et en cas de chute, pas de panique : vous tombez directement dans l'eau, sans aucun risque.</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>📋 Conditions d'accès</h3>
+            <p>Accessible dès 7 ans. Plusieurs niveaux de difficulté grâce aux prises de couleur : chacun progresse à son rythme, du débutant au plus sportif.</p>
+          </article>
+        </div>
+        <div class="section-images">
+          <div class="section-image js-reveal">
+            <img src="images/personne_corde.jpeg" alt="Participant en train de franchir un obstacle avec équipement de sécurité">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/personne_poutre.jpeg" alt="Personne testant son équilibre sur une poutre">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/personne_saut.jpeg" alt="Participant en plein saut avec équipement de protection">
+          </div>
+          <div class="section-image js-reveal">
+            <img src="images/personne_acrobatie.jpeg" alt="Acrobatie encadrée avec équipement complet">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tarifs">
+      <div class="container">
+        <h2 class="section-title">Tarifs</h2>
+        <p class="section-lead">Équipement de sécurité fourni dans tous les tarifs. Cliquez sur une formule pour voir le détail.</p>
+        <div class="tarif" role="tablist" aria-label="Choix des formules">
+          <button class="card js-reveal tarif-card is-active" id="tarif-simple" type="button" role="tab" aria-selected="true" aria-controls="tarif-details-content" data-plan="simple">
+            <h3>Journée Simple</h3>
+            <strong>18€</strong>
+            <p>7 ans et + / adulte — accès journée, sortie définitive.</p>
+          </button>
+          <button class="card js-reveal tarif-card" id="tarif-liberte" type="button" role="tab" aria-selected="false" aria-controls="tarif-details-content" data-plan="liberte">
+            <h3>Pass Liberté</h3>
+            <strong>22€</strong>
+            <p>7 ans et + / adulte — entrées et sorties illimitées toute la journée.</p>
+          </button>
+          <button class="card js-reveal tarif-card" id="tarif-enfants" type="button" role="tab" aria-selected="false" aria-controls="tarif-details-content" data-plan="enfants">
+            <h3>Enfants -7 ans</h3>
+            <strong>8€</strong>
+            <p>Espace aquatique ludique réservé aux moins de 7 ans (2h).</p>
+          </button>
+        </div>
+        <p class="tarif-note">Cliquez sur une formule ci-dessus pour voir le détail.</p>
+        <article class="tarif-details js-reveal" id="tarif-details-content" aria-live="polite">
+          <h3>Journée Simple</h3>
+          <p>La formule pour venir relever le défi sur une journée, à partir de 7 ans.</p>
+          <ul class="detail-list">
+            <li>Accès au parcours Ninja (12 obstacles, 300 m²)</li>
+            <li>Gilet de sauvetage et casque fournis</li>
+            <li>Une sortie définitive : on profite puis on quitte le parc</li>
+            <li>Accessible même aux non-nageurs</li>
+          </ul>
+        </article>
+
+        <h3 class="tarif-subtitle">Cartes & abonnements</h3>
+        <div class="cards-3">
+          <article class="card js-reveal">
+            <h3>Carte 10 entrées</h3>
+            <strong class="tarif-price">70€</strong>
+            <p>10 entrées à utiliser quand vous voulez, sans limite dans le temps. Idéal pour les habitués.</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>Abonnement saison</h3>
+            <strong class="tarif-price">160€</strong>
+            <p>Accès illimité toute la saison. Nominatif, à partir de 7 ans / adulte.</p>
+          </article>
+          <article class="card js-reveal">
+            <h3>Groupes & événements</h3>
+            <strong class="tarif-price">Sur devis</strong>
+            <p>Anniversaires, EVG / EVJF, sorties de groupe… Contactez-nous pour organiser votre venue.</p>
+          </article>
+        </div>
+        <p class="tarif-note">💳 Paiements acceptés : espèces, ANCV (Chèques-Vacances), CB, Visa et Mastercard.</p>
+      </div>
+    </section>
+
+    <section class="section" id="avis">
+      <div class="container">
+        <h2 class="section-title">Avis Clients</h2>
+        <p class="section-lead">Vous avez relevé le défi ? Partagez votre expérience ! Vos avis Google apparaîtront bientôt ici.</p>
+        <div class="avis-placeholder js-reveal">
+          <p>🏅 Les premiers avis arrivent dès l'ouverture du parc.</p>
+          <a class="btn btn-primary" href="#contact">Laisser un avis sur Google</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact & Infos pratiques</h2>
+        <p class="section-lead">Une question, un groupe, un anniversaire ou un EVG/EVJF à organiser ? Contactez-nous directement par téléphone.</p>
+        <div class="contact-grid">
+          <article class="contact-item">
+            <h3>Coordonnées</h3>
+            <p>📞 <a href="tel:+33650812075">06 50 81 20 75</a><br>📧 nwcrots@gmail.com</p>
+          </article>
+          <article class="contact-item">
+            <h3>Adresse</h3>
+            <p>Plage de Chanterenne<br>05200 Crots<br><span class="contact-sub">Au bord du lac de Serre-Ponçon, entre Embrun et Savines-le-Lac.</span></p>
+          </article>
+          <article class="contact-item">
+            <h3>Horaires</h3>
+            <p>Ouvert 7j/7 en juillet et août<br>10h - 19h <span class="contact-sub">(dernier départ à 17h30)</span><br><span class="contact-sub">Ouverture officielle : juillet 2026.</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Ninja Water Crots. Tous droits réservés. | Mentions légales | Politique de confidentialité</p>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
