@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nwcrots.netlify.app/sitemap.xml
+Sitemap: https://nwcrots.fr/sitemap.xml
